@@ -8,10 +8,12 @@ This project implements A* algorithm using c++. It can be run in windows only be
 The map is created with a file at bin\2.map, you can edit the file to createa new map.
 
 The openlist has two implements, ordered vector and binary heap. However, you must switch them in code at PathFinder.h.
+	
 	//typedef FFOpenList< PathNode > OpenList;
 	typedef FFBinaryHeap< PathNode > OpenList;
 
 Again, you can change the heuristic code using euclidean distance or manhattan distance at PathFinder.cpp.
+	
 	float heuristic = sqrt( (float)( xn - m_endPoint.x ) * ( xn - m_endPoint.x ) + ( yn - m_endPoint.y ) * ( yn - m_endPoint.y ) );
 	//float heuristic = abs( xn - m_endPoint.x ) + abs( yn - m_endPoint.y );
     
