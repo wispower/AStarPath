@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Source\AStarPath.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Map.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PathFinder.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PerformaceTimer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\targetver.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\AStarPath.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\FFBinaryHeap.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\FFOpenList.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameObject.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Map.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\PathFinder.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\PerformaceTimer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Resource.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\stdafx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\small.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\AStarPath.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{976b4868-58cc-4a55-8380-9ff0d10efe8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{bb7ca0f2-df71-4c22-ba15-b2c30407bca4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\Resource\AStarPath.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

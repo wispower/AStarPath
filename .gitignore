@@ -1,0 +1,6 @@
+tempfiles
+project/ipch
+*.suo
+*.sdf
+*.exe
+*.pdb
