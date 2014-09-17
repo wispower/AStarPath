@@ -4,3 +4,4 @@ project/ipch
 *.sdf
 *.exe
 *.pdb
+*.opensdf
